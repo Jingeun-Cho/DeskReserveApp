@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/text_add_schedule_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21년 10월 20일"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레슨 등록이 완료 되었습니다."
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:gravity="center"
+        android:textSize="17sp"
+        android:elevation="10dp"
+        android:textColor="#0090B2"
+        android:padding="10dp"
+        android:background="@drawable/radius_view"
+        />
+
+    <include android:id="@+id/member_info_layout"
+        layout="@layout/member_lesson_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:id="@+id/notification_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조진근 회원님의 21년 10월 20일 15시에 30분간 레슨 일정이 등록 되었습니다."
+        android:padding="30dp"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"
+        android:background="@drawable/radius_view"
+        />
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/btn_send_mms"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:background="@drawable/btn_mms"-->
+<!--        android:text="안내 문자 발송"-->
+<!--        android:textSize="18sp"-->
+<!--        />-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_confirm"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+
+        />
+</LinearLayout>

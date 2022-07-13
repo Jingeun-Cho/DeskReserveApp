@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:padding="5dp"
+    android:elevation="10dp"
+    android:background="@drawable/radius_view"
+    >
+
+    <TextView
+        android:id="@+id/member_lesson_name_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레슨 정보"
+        android:textColor="@color/black"
+        android:padding="2dp"
+        />
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:paddingStart="30dp"
+        >
+        <TextView
+            android:id="@+id/text_pro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="담당 프로 : "
+
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/pro_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="담당 프로"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="3"-->
+<!--        android:paddingStart="40dp"-->
+<!--        android:padding="2dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="회원권 종류 : "-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/my_membership_type"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="MV10VIP"-->
+<!--            android:layout_weight="2"-->
+<!--            android:textColor="@color/black"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:paddingStart="30dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="남은 이용기간 : "
+
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/text_membership_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21년 01월 01일 - 21년 12월 31일"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:paddingStart="30dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="등록 레슨 횟수 : "
+
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/lesson_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000회"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:paddingStart="30dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="총 진행 횟수 : "
+
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/lesson_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000회"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:paddingStart="30dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="남은 레슨 횟수 : "
+
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/lesson_remain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="000회"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="5"-->
+<!--        android:padding="5dp"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="레슨권 종류 :"-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/member_lesson_type"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:weightSum="3"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:paddingStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:padding="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        >&ndash;&gt;-->
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="회원권 종류 : "&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/member_membership_type"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="MV10VIP"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="2"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="5"-->
+<!--        android:padding="2.5dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="남은 이용기간 : "-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/member_membership_period"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:text=""-->
+<!--            android:textColor="@color/black"-->
+
+<!--            android:textSize="13sp" />-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="남은 레슨 기간 :"-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/member_lesson_period"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="5"-->
+<!--        android:padding="2.5dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="남은 레슨 횟수 : "-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/member_lesson_remain"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="남은 쿠폰 횟수 :"-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/member_coupon_remain"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:layout_weight="1"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="13sp"-->
+<!--            android:gravity="center"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

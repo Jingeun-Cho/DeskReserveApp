@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/background_schedule_type_spinner.xml" value="0.306" />
+        <entry key="app/src/main/res/drawable/btn_cancel.xml" value="0.3125" />
+        <entry key="app/src/main/res/drawable/btn_select.xml" value="0.306" />
+        <entry key="app/src/main/res/drawable/disable_schedule.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/drawable_phone_dial.xml" value="0.3225" />
+        <entry key="app/src/main/res/drawable/header_schedule.xml" value="0.375" />
+        <entry key="app/src/main/res/drawable/header_time.xml" value="0.3575" />
+        <entry key="app/src/main/res/drawable/ic_add_schedule.xml" value="0.306" />
+        <entry key="app/src/main/res/drawable/ic_arrow_back.xml" value="0.3675" />
+        <entry key="app/src/main/res/drawable/ic_write_lesson_note.xml" value="0.306" />
+        <entry key="app/src/main/res/drawable/radius_layout.xml" value="0.3125" />
+        <entry key="app/src/main/res/drawable/radius_view.xml" value="0.306" />
+        <entry key="app/src/main/res/drawable/recycler_background.xml" value="0.3575" />
+        <entry key="app/src/main/res/drawable/rounded_edittext.xml" value="0.306" />
+        <entry key="app/src/main/res/drawable/text_schedule.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable/text_time.xml" value="0.3575" />
+        <entry key="app/src/main/res/layout/activity_add_reserved.xml" value="0.23791666666666667" />
+        <entry key="app/src/main/res/layout/activity_add_schedule.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_reserve.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/dialog_add_schedule.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_select_lesson.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/dialog_select_member.xml" value="0.15677083333333333" />
+        <entry key="app/src/main/res/layout/dialog_selecte_lesson_time.xml" value="0.15677083333333333" />
+        <entry key="app/src/main/res/layout/drop_down_item.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/item_daily_schedule.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_header.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/item_member_reserve.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/member_info.xml" value="0.17604166666666668" />
+        <entry key="app/src/main/res/layout/member_lesson_info.xml" value="0.17604166666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

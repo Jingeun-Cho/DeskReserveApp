@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius_view"
+    android:padding="10dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_member_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/default_profile"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_member_profile"
+        android:layout_toStartOf="@id/btn_select_member"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/member_name_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="조진근"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/member_phone_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="010-0000-0000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_select_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:background="@drawable/btn_select"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:text="선택" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_alignTop="@id/textView_add_schedule_date"
+
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView_add_schedule_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="-1dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="2021년 7월 13일"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_add_schedule_date"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FAFAFA"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/btn_select_member"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:drawableEnd="@drawable/ic_add_schedule"-->
+<!--            android:elevation="10dp"-->
+<!--            android:paddingStart="40dp"-->
+<!--            android:paddingEnd="3dp"-->
+<!--            android:text="회원 선택"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/btn_select_start_time"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:drawableEnd="@drawable/ic_add_schedule"-->
+<!--            android:elevation="10dp"-->
+<!--            android:paddingStart="40dp"-->
+<!--            android:paddingEnd="3dp"-->
+<!--            android:text="시작 시간"-->
+<!--            android:textSize="16sp" />-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_select_lesson_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:drawableEnd="@drawable/ic_add_schedule"
+            android:paddingStart="40dp"
+            android:paddingEnd="3dp"
+            android:text="레슨 시간"
+            android:textSize="16sp" />
+
+        <!--        <Spinner-->
+        <!--            android:id="@+id/add_schedule_use_type"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:layout_marginBottom="5dp"-->
+        <!--            android:background="@drawable/background_schedule_type_spinner" />-->
+
+        <include
+            android:id="@+id/member_info_layout"
+            layout="@layout/member_lesson_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp" />
+
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="메모 사항"
+            android:textColor="@color/black"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/lesson_memo_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/radius_layout"
+            android:gravity="top|start"
+            android:minLines="10"
+            android:padding="10dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/btn_confirm"
+        android:text="레슨 등록"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+
+
+</RelativeLayout>
