@@ -14,8 +14,8 @@ Create by Jingeun_Cho
   
 <ol>
   <li>
-      <h3> Description <h3>
-      <p"> 매장 인포데스크에서 회원의 예약 및 출석관리 태블릿 어플리케이션 </p>
+      <h3> Description </h3>
+      <p> 매장 인포데스크에서 회원의 예약 및 출석관리 태블릿 어플리케이션 </p>
       <p> Landscape를 기준으로 하여 제작 </p>
       <p> MVC패턴을 이용하여 기존 스파게티 코드를 해소하고, data를 호출/수정 하는 코드를 분리 함</p>
   </li>
