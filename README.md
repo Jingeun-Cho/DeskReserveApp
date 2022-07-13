@@ -19,15 +19,13 @@ Create by Jingeun_Cho
       <p> Landscape를 기준으로 하여 제작 </p>
       <p> MVC패턴을 이용하여 기존 스파게티 코드를 해소하고, data를 호출/수정 하는 코드를 분리 함</p>
   </li>
-     <li>
-         <h4 align="center"> Problem <h3>
-
-        <p> 기존 스파게티 코드에 MVC 패턴을 적용하기 </p> 
-        <p> Contoller의 return type을 Collection Reference 타입으로 반환 시 AddSnapshotListener 등록 가능 </p>
-
-        <p> 2. MVVM 패턴을 적용 할 수 있는가? </p> 
-        <p> MVVM 패턴을 적용하기 위하여 학습 중 </p>
-     </li>
+   <li>
+     <h4> Problem <h4>
+      <p> 기존 스파게티 코드에 MVC 패턴을 적용하기 </p> 
+      <p> Contoller의 return type을 Collection Reference 타입으로 반환 시 AddSnapshotListener 등록 가능 </p>
+      <p> 2. MVVM 패턴을 적용 할 수 있는가? </p> 
+      <p> MVVM 패턴을 적용하기 위하여 학습 중 </p>
+   </li>
 </ol>
 
 <br/>
